@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Crea tu cuenta de EATSY!.">
+  <title>EATSY! | Crea tu cuenta</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="auth-page page-register">
+  <header class="register-banner">
+    <h1>CREA TU CUENTA</h1>
+    <a href="index.html" class="auth-logo" aria-label="EATSY! - volver al inicio"><svg viewBox="0 0 100 150" role="img" aria-label="Logo de EATSY"><circle cx="50" cy="76" r="48" fill="#fff"/><g fill="none" stroke="#4e7b38" stroke-linecap="round" stroke-linejoin="round"><path d="M35 38v25M43 35v28M51 36v28M59 39v24M34 61c0 9 3 14 10 18v41M59 62c0 9-2 14-8 18v40" stroke-width="5"/><path d="M58 33c4-13 16-18 25-16-1 13-10 22-24 22" fill="#4e7b38" stroke-width="2"/></g></svg></a>
+  </header>
+  <main class="register-main">
+    <form class="register-form" id="register-form">
+      <div class="auth-field"><label for="first-name">Nombres</label><input id="first-name" name="nombres" autocomplete="given-name" required></div>
+      <div class="auth-field"><label for="last-name">Apellidos</label><input id="last-name" name="apellidos" autocomplete="family-name" required></div>
+      <div class="auth-field"><label for="document-type">Tipo de documento</label><select id="document-type" name="tipo-documento"><option value="DNI">DNI</option><option value="CE">Carné de extranjería</option><option value="PAS">Pasaporte</option></select></div>
+      <div class="auth-field"><label for="document-number">Nro de documento</label><input id="document-number" name="documento" inputmode="numeric" autocomplete="off" required></div>
+      <hr class="register-divider">
+      <div class="auth-field"><label for="register-email">Correo Electrónico</label><input id="register-email" name="email" type="email" autocomplete="email" required></div>
+      <div class="auth-field"><label for="register-password">Contraseña</label><input id="register-password" name="password" type="password" autocomplete="new-password" minlength="8" required></div>
+      <div class="auth-field"><label for="register-phone">Teléfono</label><input id="register-phone" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required></div>
+      <div class="auth-field"><label for="repeat-password">Repetir contraseña</label><input id="repeat-password" name="repetir-password" type="password" autocomplete="new-password" minlength="8" required></div>
+      <div class="register-options" aria-label="Opciones de cuenta">
+        <label><input type="checkbox" name="terms" required><span>*He leído y acepto los Términos y Condiciones y Políticas de Privacidad</span></label>
+        <label><input type="checkbox" name="marketing"><span>*Acepto el envío de recordatorios, promociones y otros fines adicionales</span></label>
+      </div>
+      <button class="auth-submit register-submit" type="submit">CREAR CUENTA</button>
+      <p class="auth-status" id="register-status" role="status" aria-live="polite"></p>
+      <p class="register-login-link">¿Ya tienes cuenta? <a href="login.html">Iniciar sesión</a></p>
+    </form>
+  </main>
+</body>
+</html>

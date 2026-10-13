@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EATSY: menús vegetarianos transparentes, nutritivos y listos en minutos.">
+  <title>EATSY! | Nuestro menú y catálogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body class="page-home" data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="EATSY, ir al inicio"><img class="brand-image" src="img/logo-eatsy.svg" alt="EATSY!"></a>
+    <label class="search-box">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.3"/><path d="m16 16 4.3 4.3"/></svg>
+      <input type="search" class="site-search" placeholder="Tu Pedido Empieza Aqui..." aria-label="Buscar platos">
+    </label>
+    <nav class="header-actions" aria-label="Accesos rápidos">
+      <a href="pago.html" aria-label="Carrito y pago" class="header-icon cart-icon"><svg viewBox="0 0 24 24"><path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.5a2 2 0 0 0 1.9-1.4L22 8H7"/><circle cx="10" cy="20" r="1.2"/><circle cx="18" cy="20" r="1.2"/></svg><span class="cart-count" aria-live="polite">0</span></a>
+      <a href="index.html#transparencia" aria-label="Opciones nutricionales" class="header-icon"><svg viewBox="0 0 24 24"><path d="M12 2.5 20 6v5.8c0 5.1-3.3 8.5-8 10.2-4.7-1.7-8-5.1-8-10.2V6z"/><path d="m8.5 12 2.3 2.3 4.8-5"/></svg></a>
+      <a href="planes.html" aria-label="Ayuda e información" class="header-icon"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0-6.8-3.1L4 22l4.5-1.3A9 9 0 0 0 12 21Z"/><path d="M9.4 9a2.7 2.7 0 1 1 4.7 1.8c-1.2 1.1-2.1 1.5-2.1 3M12 17.4v.1"/></svg></a>
+      <a href="login.html" aria-label="Mi cuenta" class="header-icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="7" r="3.2"/><path d="M3 21v-1.7a5.8 5.8 0 0 1 11.6 0V21M18 8v8M14 12h8"/></svg></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home-hero" aria-labelledby="home-title">
+      <h1 id="home-title">Nuestro Menú &amp Catálogo</h1>
+    </section>
+
+    <section class="feature-grid content-width" aria-label="Explora nuestro menú">
+      <article class="feature-card">
+        <h2>Listo en 30 min</h2>
+        <a href="catalogo.html" class="feature-image"><img src="img/ensalada.png" alt="Ensalada vegetariana fresca"></a>
+        <a class="pill-button" href="catalogo.html">Ver mas</a>
+      </article>
+      <article class="feature-card">
+        <h2>Control de<br>glucosa y macros</h2>
+        <a href="catalogo.html#proteina" class="feature-image"><img src="img/Imagen 1.png" alt="Plato equilibrado de legumbres y arroz"></a>
+        <a class="pill-button" href="catalogo.html#proteina">Ver mas</a>
+      </article>
+      <article class="feature-card">
+        <h2>Alto en Proteína y<br>sin gluten</h2>
+        <a href="catalogo.html#sin-gluten" class="feature-image"><img src="img/Imagen 12.png" alt="Bowl de vegetales y granos"></a>
+        <a class="pill-button" href="catalogo.html#sin-gluten">Ver mas</a>
+      </article>
+      <article class="feature-card">
+        <h2>Dellatado del<br>Plato</h2>
+        <a href="detalle-plato.html" class="feature-image"><img src="img/Imagen 4.png" alt="Plato preparado con vegetales"></a>
+        <a class="pill-button" href="detalle-plato.html">Ver mas</a>
+      </article>
+    </section>
+
+    <section class="weekly-home content-width" aria-labelledby="weekly-title">
+      <h2 id="weekly-title" class="section-title">Planes Semanales</h2>
+      <div class="feature-grid weekly-feature-grid">
+        <article class="feature-card">
+          <h3>Personaliza tu<br>menu</h3>
+          <a href="planes.html" class="feature-image"><img src="img/Imagen 5.png" alt="Ingredientes saludables"></a>
+          <a class="pill-button" href="planes.html">Ver mas</a>
+        </article>
+        <article class="feature-card">
+          <h3>Inicia tu plan<br>Semanal</h3>
+          <a href="planes.html" class="feature-image"><img src="img/Imagen 11.png" alt="Comida fresca para la semana"></a>
+          <a class="pill-button" href="planes.html">Ver mas</a>
+        </article>
+        <article class="feature-card">
+          <h3>Programacion de<br>Horarios</h3>
+          <a href="planes.html" class="feature-image"><img src="img/Imagen 8.png" alt="Comida saludable servida en un bowl"></a>
+          <a class="pill-button" href="planes.html">Ver mas</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section content-width" aria-labelledby="about-title">
+      <img class="about-photo" src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=85" alt="Plato vegetariano servido para disfrutar">
+      <div class="about-copy">
+        <h2 id="about-title" class="section-title">¿Quienes Somos?</h2>
+        <p>Somos EATSY!!, un e-commerce B2C especializado en delivery de comida vegetariana bajo la promesa: "Tu menú vegetariano, listo en minutos".</p>
+        <ul>
+          <li>Transparencia nutricional: Ficha técnica estandarizada en cada plato con calorías, macronutrientes y sellos de alérgenos.</li>
+          <li>Calidad y previsibilidad: Control propio de producción y empaques aptos para microondas, libres de BPA.</li>
+          <li>Flexibilidad: Opciones de compra rápida e inmediata o planes semanales personalizables que puedes pausar o modificar sin penalización.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="transparencia" class="transparency-section content-width" aria-labelledby="transparency-title">
+      <div class="transparency-copy">
+        <h2 id="transparency-title" class="section-title">Nuestra Transparencia</h2>
+        <p>En EATSY!!, impulsamos un estilo de vida más consciente y equilibrado eliminando la incertidumbre en tu alimentación diaria. Creemos en un mundo donde comer bien sea simple, honesto y accesible.</p>
+        <p>Nuestra propuesta se basa en tres pilares:</p>
+        <ul>
+          <li>Transparencia total: Ficha nutricional clara en cada plato, detallando calorías, macronutrientes y alérgenos sin ingredientes ocultos.</li>
+          <li>Nutrición consciente: Menús balanceados diseñados para proteger tu energía, controlar tu salud y adaptarse a tus objetivos.</li>
+          <li>Calidad y previsibilidad: Control propio de cocina, entregas puntuales y envases sostenibles libres de BPA.</li>
+        </ul>
+        <p>Aspiramos a facilitar el camino hacia una vida más saludable mediante menús vegetarianos transparentes, nutritivos y listos en minutos.</p>
+      </div>
+      <img class="transparency-art" src="https://www.altervida.org.py/v5/wp-content/uploads/2022/03/3726691-480x480.jpg" alt="Naturaleza verde que representa un estilo de vida consciente">
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© Copyright y Derechos reservados 2026</p>
+    <div class="footer-contact"><strong>Contáctanos:</strong><a class="social-icon" href="https://www.facebook.com/" aria-label="Facebook">f</a><a class="social-icon mail-social" href="mailto:hola@eatsy.example" aria-label="Correo">✉</a><a class="social-icon whatsapp-social" href="https://wa.me/51999999999" aria-label="WhatsApp"></a><a href="tel:+51999999999" class="phone-link">999-999-999</a></div>
+  </footer>
+</body>
+</html>
