@@ -1,0 +1,10 @@
+# EATSY! - instrucciones para los rastreadores
+User-agent: *
+
+# Evitar el rastreo de pantallas de acceso y transacciones.
+Disallow: /login.html
+Disallow: /registro.html
+Disallow: /pago.html
+
+# Sitemap del sitio (reemplaza el dominio de ejemplo al publicar la web).
+Sitemap: https://www.tudominio.com/sitemap.xml
