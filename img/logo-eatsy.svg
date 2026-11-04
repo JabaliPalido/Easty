@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="52" viewBox="0 0 180 52" role="img" aria-labelledby="title desc">
+  <title id="title">EATSY!</title>
+  <desc id="desc">Logo de EATSY con icono circular de cubiertos y nombre en verde claro.</desc>
+  <circle cx="24" cy="26" r="23" fill="#f8fff4"/>
+  <g fill="none" stroke="#285b38" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 11v10m-5-10v7m10-7v7m-5 3v17"/>
+    <path d="M29 11c-4 5-4 12 0 15v12"/>
+  </g>
+  <text x="59" y="34" fill="#baf397" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="800" letter-spacing="0.1">EATSY!</text>
+</svg>
